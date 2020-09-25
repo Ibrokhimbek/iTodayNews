@@ -1,0 +1,101 @@
+.navbar {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .iToday_logo {
+        width: 20%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .menu {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        .menu_user_actions {
+            width: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                background-color: transparent;
+                border: none;
+                border-radius: 50%;
+                outline: none;
+            }
+
+            .user_action_language {
+                position: relative;
+                padding: 2px;
+
+                .languages {
+                    padding-right: 18px;
+                    border: 1px solid #fac603;
+                    border-radius: 15px;
+                    height: 100%;
+                    position: absolute;
+                    top: -1px;
+                    right: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    a {
+                        padding-right: 5px;
+                        padding: 0px 5px;
+                        text-decoration: none;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 500;
+                        color: white;
+                    }
+
+                    a:hover {
+                        color: #fac603;
+                    }
+                }
+            }
+        }
+
+        .menu_pages {
+            width: 100%;
+
+            .navbar_list {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                .nav_item:first-child {
+                    margin-left: 26px;
+                }
+
+                .nav_item {
+                    .nav_link {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 15px;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 500;
+                    }
+
+                    .nav_link:hover {
+                        color: #fac603;
+                    }
+                }
+            }
+        }
+    }
+}

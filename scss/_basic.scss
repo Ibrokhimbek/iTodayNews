@@ -1,0 +1,26 @@
+// Fonts were user for this website
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Rubik:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1186px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

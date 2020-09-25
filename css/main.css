@@ -1,1 +1,427 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Rubik:wght@500&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.container {
+  max-width: 1186px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.top_search_area {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+}
+
+.top_search_area nav {
+  height: 140px;
+  border-bottom: 1px solid #969696;
+}
+
+.top_search_area nav .container {
+  height: 100%;
+}
+
+.top_search_area .search_area .container {
+  position: relative;
+}
+
+.top_search_area .search_area .container form input {
+  width: 100%;
+  font-size: 25px;
+  padding: 10px 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  border-bottom: 2px solid white;
+  margin-top: 15vh;
+}
+
+.top_search_area .search_area .container button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 5vh;
+  right: 3vh;
+}
+
+.navbar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .iToday_logo {
+  width: 20%;
+}
+
+.navbar .iToday_logo img {
+  width: 100%;
+}
+
+.navbar .menu {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navbar .menu .menu_user_actions {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .menu .menu_user_actions button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.navbar .menu .menu_user_actions .user_action_language {
+  position: relative;
+  padding: 2px;
+}
+
+.navbar .menu .menu_user_actions .user_action_language .languages {
+  padding-right: 18px;
+  border: 1px solid #fac603;
+  border-radius: 15px;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .menu .menu_user_actions .user_action_language .languages a {
+  padding-right: 5px;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.navbar .menu .menu_user_actions .user_action_language .languages a:hover {
+  color: #fac603;
+}
+
+.navbar .menu .menu_pages {
+  width: 100%;
+}
+
+.navbar .menu .menu_pages .navbar_list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .menu .menu_pages .navbar_list .nav_item:first-child {
+  margin-left: 26px;
+}
+
+.navbar .menu .menu_pages .navbar_list .nav_item .nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.navbar .menu .menu_pages .navbar_list .nav_item .nav_link:hover {
+  color: #fac603;
+}
+
+.top_menu_area {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/menu_background.jpg);
+}
+
+.top_menu_area nav {
+  width: 100%;
+  height: 140px;
+  background-color: #000;
+  -webkit-box-shadow: 0px 1px 10px 1px black;
+          box-shadow: 0px 1px 10px 1px black;
+}
+
+.top_menu_area nav .container {
+  height: 100%;
+  position: relative;
+}
+
+.top_menu_area nav .container .top_menu_box {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_quoto {
+  width: 20%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language {
+  position: relative;
+  padding: 2px;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language .languages {
+  padding-right: 18px;
+  border: 1px solid #fac603;
+  border-radius: 15px;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language .languages a {
+  padding-right: 5px;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language .languages a:hover {
+  color: #fac603;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .menu_area_user_social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_menu_area nav .container .top_menu_box .menu_area_user_actions .menu_area_user_social h3 {
+  color: white;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.top_menu_area .menu_area_navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.top_menu_area .menu_area_navbar .container h3 {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin-top: 33px;
+}
+
+.top_menu_area .menu_area_navbar .container .menu_area_navbar_nav {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item:first-child {
+  margin-top: 40px;
+}
+
+.top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item {
+  margin-top: 28px;
+}
+
+.top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item .menu_area_nav_link {
+  color: white;
+  text-decoration: none;
+}
+
+.top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item .menu_area_nav_link:hover {
+  color: #fac603;
+}
+
+.top_menu_area .menu_area_navbar .container .exit_btn {
+  position: absolute;
+  top: 10;
+  right: 60px;
+  background-color: transparent;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */

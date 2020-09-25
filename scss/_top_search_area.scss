@@ -1,0 +1,42 @@
+.top_search_area {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+
+    nav{
+        height: 140px;
+        border-bottom: 1px solid #969696;
+
+        .container {
+            height: 100%;
+        }
+    }
+
+    .search_area {
+        .container {
+            position: relative;
+            form {
+                input {
+                    width: 100%;
+                    font-size: 25px;
+                    padding: 10px 0;
+                    border: none;
+                    background-color: transparent;
+                    outline: none;
+                    color: white;
+                    border-bottom: 2px solid white;
+                    margin-top: 15vh;
+                }
+            }
+
+            button {
+                border: none;
+                background-color: transparent;
+                position: absolute;
+                top: 5vh;
+                right: 3vh;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,158 @@
+.top_menu_area {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/menu_background.jpg);
+
+    nav {
+        width: 100%;
+        height: 140px;
+        background-color: #000;
+        box-shadow: 0px 1px 10px 1px black;
+
+        .container {
+            height: 100%;
+            position: relative;
+
+            .top_menu_box {
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+
+
+                .menu_area_quoto {
+                    width: 20%;
+                    text-align: center;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                }
+
+                .menu_area_user_actions {
+                    width: 25%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-end;
+
+                    button {
+                        background-color: transparent;
+                        border: none;
+                        border-radius: 50%;
+                        outline: none;
+                    }
+
+                    .user_actions {
+                        width: 60%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .user_action_language {
+                            position: relative;
+                            padding: 2px;
+
+                            .languages {
+                                padding-right: 18px;
+                                border: 1px solid #fac603;
+                                border-radius: 15px;
+                                height: 100%;
+                                position: absolute;
+                                top: -1px;
+                                right: 0;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                a {
+                                    padding-right: 5px;
+                                    padding: 0px 5px;
+                                    text-decoration: none;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-weight: 500;
+                                    color: white;
+                                }
+
+                                a:hover {
+                                    color: #fac603;
+                                }
+                            }
+                        }
+                    }
+
+                    .menu_area_user_social {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        h3 {
+                            color: white;
+                            font-size: 19px;
+                            font-family: "Montserrat", sans-serif;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menu_area_navbar {
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            h3 {
+                color: white;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+                text-align: left;
+                margin-top: 33px;
+            }
+
+            .menu_area_navbar_nav {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-end;
+
+                .menu_area_nav_item:first-child {
+                    margin-top: 40px;
+                }
+
+                .menu_area_nav_item {
+                    margin-top: 28px;
+
+                    .menu_area_nav_link {
+                        color: white;
+                        text-decoration: none;
+                    }
+
+                    .menu_area_nav_link:hover {
+                        color: #fac603;
+                    }
+                }
+            }
+
+            .exit_btn {
+                position: absolute;
+                top: 10;
+                right: 60px;
+                background-color: transparent;
+                border: none;
+            }
+        }
+    }
+
+}
