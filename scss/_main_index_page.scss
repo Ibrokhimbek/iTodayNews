@@ -242,6 +242,18 @@
                     text-align: center;
                 }
             }
+
+            .latest_news_title, .readers_news_title {
+                width: 100%;
+
+                h3 {
+                    font-size: 13px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 48px 0;
+                }
+            }
         }
     }
 }

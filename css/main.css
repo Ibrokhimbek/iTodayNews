@@ -805,6 +805,18 @@ a {
   text-align: center;
 }
 
+.main_news_section .container .recommended_column .latest_news_title, .main_news_section .container .recommended_column .readers_news_title {
+  width: 100%;
+}
+
+.main_news_section .container .recommended_column .latest_news_title h3, .main_news_section .container .recommended_column .readers_news_title h3 {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 48px 0;
+}
+
 body {
   height: 1000px;
 }
