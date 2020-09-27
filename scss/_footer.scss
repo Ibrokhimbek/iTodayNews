@@ -1,0 +1,94 @@
+footer {
+    width: 100%;
+    height: 235px;
+    background-color: black;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .iTodayLogo_column {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .logo,
+            .logo img {
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 14px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                color: white;
+            }
+
+            .follow_part {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 50px;
+
+                h3 {
+                    font-size: 19px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    color: white;
+                }
+            }
+        }
+
+        ul {
+            width: 25%;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                margin-top: 10px;
+
+                a {
+                    font-size: 15px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    color: white;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .mbm_logo_column {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            h3 {
+                font-size: 25px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                color: white;
+                margin-top: 10px;
+            }
+
+            span {
+                font-size: 15px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                color: white;
+                margin-top: 45px;
+                text-align: justify;
+            }
+        }
+    }
+}
