@@ -8,7 +8,8 @@
         "../scss/_navbar.scss",
         "../scss/_top_menu_area.scss",
         "../scss/_main_index_page.scss",
-        "../scss/_videos_section.scss"
+        "../scss/_videos_section.scss",
+        "../scss/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
