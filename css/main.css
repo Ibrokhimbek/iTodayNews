@@ -1069,4 +1069,23 @@ footer .container .mbm_logo_column span {
   margin-top: 45px;
   text-align: justify;
 }
+
+@media (max-width: 1023px) {
+  .top_search_area {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+  }
+  .top_search_area nav {
+    height: 140px;
+    border-bottom: 1px solid #969696;
+  }
+  .top_search_area nav .container {
+    height: 100%;
+  }
+  .top_search_area .search_area .container form input {
+    font-size: 15px;
+    border-bottom: 1px solid white;
+  }
+}
 /*# sourceMappingURL=main.css.map */
