@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .top_search_area {
   height: 100vh;
   width: 100%;
@@ -911,12 +915,15 @@ a {
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
 }
 
 .video_loader_btn .container button:hover {
   color: black;
   background-color: #fff;
   cursor: pointer;
+  border: 1px solid black;
 }
 
 footer {
@@ -1023,6 +1030,10 @@ footer .container ul li a {
   font-weight: 500;
   color: white;
   margin-top: 10px;
+}
+
+footer .container ul li a:hover {
+  color: #fac603;
 }
 
 footer .container .mbm_logo_column {
