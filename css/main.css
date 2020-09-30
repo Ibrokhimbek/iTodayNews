@@ -1436,5 +1436,77 @@ footer .container .mbm_logo_column span {
     background-color: transparent;
     border: none;
   }
+  .ads_banner .container {
+    padding: 5px 0;
+  }
+  .ads_banner .container .ads_link {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ads_banner .container .ads_link img {
+    width: 70%;
+  }
+  .main_news_section .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main_news_section .container .news_column {
+    width: 100%;
+  }
+  .main_news_section .container .news_column .news_title {
+    margin: 0;
+  }
+  .main_news_section .container .news_column .news_title h1 {
+    font-size: 18px;
+  }
+  .main_news_section .container .news_column .two_main_news {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main_news_section .container .news_column .two_main_news .main_new {
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  .main_news_section .container .news_column .two_main_news .main_new a .main_new_img {
+    width: 100%;
+  }
+  .main_news_section .container .news_column .two_main_news .main_new a .main_new_img img {
+    width: 100%;
+  }
+  .main_news_section .container .news_column .two_main_news .main_new:nth-child(2) {
+    width: 100%;
+    border-bottom: none;
+  }
+  .main_news_section .container .news_column .two_main_news .main_new:nth-child(2) a .main_new_img {
+    width: 27%;
+  }
+  .main_news_section .container .news_column .two_main_news .main_new:nth-child(2) a .main_new_img img {
+    width: 100%;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link {
+    padding-top: 10px;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-img {
+    width: 30%;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-img img {
+    width: 100%;
+    height: auto;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title {
+    width: 65%;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title a {
+    font-size: 9px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

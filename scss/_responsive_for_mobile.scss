@@ -253,5 +253,97 @@
 
     }
 
+    .ads_banner {
+    
+        .container {
+            padding: 5px 0;
+    
+            .ads_link {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+    
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .main_news_section {
+        .container {
+            flex-direction: column;
+
+            .news_column {
+                width: 100%;
+                
+                .news_title {
+                    margin: 0;
+                    
+                    h1 {
+                        font-size: 18px;
+                    }
+                }
+
+                .two_main_news {
+                    flex-direction: column;
+
+                    .main_new {
+                        width: 100%;
+                        border-bottom: 1px solid black;
+
+                        a{
+                            .main_new_img {
+                                width: 100%;
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    .main_new:nth-child(2) {
+                        width: 100%;
+                        border-bottom: none;
+
+                        a{
+                            .main_new_img {
+                                width: 27%;
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .news_left_bottom {
+                    .news_link {
+                        padding-top: 10px;
+
+                        .news_link-img {
+                            width: 30%;
+                            
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .news_link-title {
+                            width: 65%;
+
+                            a{
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     
 }
