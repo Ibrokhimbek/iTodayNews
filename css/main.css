@@ -375,7 +375,7 @@ button:hover {
   width: 100%;
   height: 100vh;
   background-image: url(../Images/menu_background.jpg);
-  background-size:cover;
+  background-size: cover;
 }
 
 .top_menu_area nav {
@@ -1218,5 +1218,223 @@ footer .container .mbm_logo_column span {
   color: white;
   margin-top: 45px;
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .top_search_area nav {
+    height: 70px;
+  }
+  .top_search_area nav .container .navbar .iTodayLogo {
+    min-width: 130px;
+  }
+  .top_search_area nav .container .navbar .iTodayLogo img {
+    width: 100%;
+  }
+  .top_search_area nav .container .navbar .menu {
+    width: 30%;
+  }
+  .top_search_area nav .container .navbar .menu .menu_user_actions {
+    width: 100%;
+  }
+  .top_search_area nav .container .navbar .menu .menu_user_actions button img {
+    height: 14px;
+  }
+  .top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language {
+    position: relative;
+    padding: 2px;
+  }
+  .top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language .languages {
+    padding-right: 13px;
+  }
+  .top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language .languages a {
+    color: #fac603;
+    font-size: 10px;
+  }
+  .top_search_area nav .container .navbar .menu .menu_pages {
+    display: none;
+  }
+  .top_search_area .search_area .container {
+    position: relative;
+  }
+  .top_search_area .search_area .container form input {
+    font-size: 18px;
+  }
+  .main_navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+  }
+  .main_navbar .container {
+    height: 100%;
+  }
+  .main_navbar .container .navbar .iTodayLogo {
+    min-width: 130px;
+  }
+  .main_navbar .container .navbar .iTodayLogo img {
+    width: 100%;
+  }
+  .main_navbar .container .navbar .menu {
+    width: 30%;
+  }
+  .main_navbar .container .navbar .menu .menu_user_actions {
+    width: 100%;
+  }
+  .main_navbar .container .navbar .menu .menu_user_actions button img {
+    height: 14px;
+  }
+  .main_navbar .container .navbar .menu .menu_user_actions .user_action_language {
+    position: relative;
+    padding: 2px;
+  }
+  .main_navbar .container .navbar .menu .menu_user_actions .user_action_language .languages {
+    padding-right: 13px;
+  }
+  .main_navbar .container .navbar .menu .menu_user_actions .user_action_language .languages a {
+    color: #fac603;
+    font-size: 10px;
+  }
+  .main_navbar .container .navbar .menu .menu_user_actions .user_action_language .languages a:hover {
+    color: #fff;
+  }
+  .main_navbar .container .navbar .menu .menu_pages {
+    display: none;
+  }
+  .top_menu_area nav {
+    width: 100%;
+    height: 70px;
+  }
+  .top_menu_area nav .container {
+    height: 100%;
+    position: relative;
+  }
+  .top_menu_area nav .container .top_menu_box {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top_menu_area nav .container .top_menu_box .iToday_logo {
+    width: 130px;
+  }
+  .top_menu_area nav .container .top_menu_box .iToday_logo img {
+    width: 100%;
+  }
+  .top_menu_area nav .container .top_menu_box .mbm_logo {
+    display: none;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_quoto {
+    display: none;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions {
+    width: 30%;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions button img {
+    height: 14px;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language {
+    position: relative;
+    padding: 2px;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language .languages {
+    padding-right: 10px;
+    border: 1px solid #fac603;
+    border-radius: 15px;
+    height: 100%;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language .languages a {
+    font-size: 10px;
+    color: #fac603;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions .user_actions .user_action_language .languages a:hover {
+    color: #fff;
+  }
+  .top_menu_area nav .container .top_menu_box .menu_area_user_actions .menu_area_user_social {
+    display: none;
+  }
+  .top_menu_area .menu_area_navbar .container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .top_menu_area .menu_area_navbar .container h3 {
+    display: none;
+  }
+  .top_menu_area .menu_area_navbar .container .menu_area_navbar_nav {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item:first-child {
+    margin-top: 40px;
+  }
+  .top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item {
+    margin-top: 20px;
+  }
+  .top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item .menu_area_nav_link {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+  }
+  .top_menu_area .menu_area_navbar .container .menu_area_navbar_nav .menu_area_nav_item .menu_area_nav_link:hover {
+    color: #fac603;
+  }
+  .top_menu_area .menu_area_navbar .container .exit_btn {
+    position: absolute;
+    top: 13;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
