@@ -21,7 +21,7 @@ body {
 
 .container {
   max-width: 1186px;
-  padding: 0 20px;
+  padding: 0 5px;
   margin: 0 auto;
 }
 
@@ -40,12 +40,157 @@ button:hover {
 }
 
 .top_search_area nav {
+  width: 100%;
   height: 140px;
   border-bottom: 1px solid #969696;
 }
 
 .top_search_area nav .container {
   height: 100%;
+}
+
+.top_search_area nav .container .navbar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_search_area nav .container .navbar .iTodayLogo {
+  width: 25%;
+}
+
+.top_search_area nav .container .navbar .iTodayLogo img {
+  width: 100%;
+}
+
+.top_search_area nav .container .navbar .menu {
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.top_search_area nav .container .navbar .menu .menu_user_actions {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_search_area nav .container .navbar .menu .menu_user_actions button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language {
+  position: relative;
+  padding: 2px;
+}
+
+.top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language .languages {
+  padding-right: 18px;
+  border: 1px solid #fac603;
+  border-radius: 15px;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language .languages a {
+  padding-right: 5px;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.top_search_area nav .container .navbar .menu .menu_user_actions .user_action_language .languages a:hover {
+  color: #fac603;
+}
+
+.top_search_area nav .container .navbar .menu .menu_pages {
+  width: 100%;
+}
+
+.top_search_area nav .container .navbar .menu .menu_pages .navbar_list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top_search_area nav .container .navbar .menu .menu_pages .navbar_list .nav_item:first-child {
+  margin-left: 26px;
+}
+
+.top_search_area nav .container .navbar .menu .menu_pages .navbar_list .nav_item .nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.top_search_area nav .container .navbar .menu .menu_pages .navbar_list .nav_item .nav_link:hover {
+  color: #fac603;
 }
 
 .top_search_area .search_area .container {
@@ -82,11 +227,7 @@ button:hover {
   height: 100%;
 }
 
-.fixed_position {
-  position: fixed;
-}
-
-.navbar {
+.main_navbar .container .navbar {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,16 +244,16 @@ button:hover {
           align-items: center;
 }
 
-.navbar .iToday_logo {
-  width: 20%;
+.main_navbar .container .navbar .iTodayLogo {
+  width: 25%;
 }
 
-.navbar .iToday_logo img {
+.main_navbar .container .navbar .iTodayLogo img {
   width: 100%;
 }
 
-.navbar .menu {
-  width: 80%;
+.main_navbar .container .navbar .menu {
+  width: 75%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,7 +269,7 @@ button:hover {
           align-items: flex-end;
 }
 
-.navbar .menu .menu_user_actions {
+.main_navbar .container .navbar .menu .menu_user_actions {
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,19 +286,19 @@ button:hover {
           align-items: center;
 }
 
-.navbar .menu .menu_user_actions button {
+.main_navbar .container .navbar .menu .menu_user_actions button {
   background-color: transparent;
   border: none;
   border-radius: 50%;
   outline: none;
 }
 
-.navbar .menu .menu_user_actions .user_action_language {
+.main_navbar .container .navbar .menu .menu_user_actions .user_action_language {
   position: relative;
   padding: 2px;
 }
 
-.navbar .menu .menu_user_actions .user_action_language .languages {
+.main_navbar .container .navbar .menu .menu_user_actions .user_action_language .languages {
   padding-right: 18px;
   border: 1px solid #fac603;
   border-radius: 15px;
@@ -180,7 +321,7 @@ button:hover {
           align-items: center;
 }
 
-.navbar .menu .menu_user_actions .user_action_language .languages a {
+.main_navbar .container .navbar .menu .menu_user_actions .user_action_language .languages a {
   padding-right: 5px;
   padding: 0px 5px;
   text-decoration: none;
@@ -189,15 +330,15 @@ button:hover {
   color: white;
 }
 
-.navbar .menu .menu_user_actions .user_action_language .languages a:hover {
+.main_navbar .container .navbar .menu .menu_user_actions .user_action_language .languages a:hover {
   color: #fac603;
 }
 
-.navbar .menu .menu_pages {
+.main_navbar .container .navbar .menu .menu_pages {
   width: 100%;
 }
 
-.navbar .menu .menu_pages .navbar_list {
+.main_navbar .container .navbar .menu .menu_pages .navbar_list {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,11 +355,11 @@ button:hover {
           justify-content: space-between;
 }
 
-.navbar .menu .menu_pages .navbar_list .nav_item:first-child {
+.main_navbar .container .navbar .menu .menu_pages .navbar_list .nav_item:first-child {
   margin-left: 26px;
 }
 
-.navbar .menu .menu_pages .navbar_list .nav_item .nav_link {
+.main_navbar .container .navbar .menu .menu_pages .navbar_list .nav_item .nav_link {
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -226,7 +367,7 @@ button:hover {
   font-weight: 500;
 }
 
-.navbar .menu .menu_pages .navbar_list .nav_item .nav_link:hover {
+.main_navbar .container .navbar .menu .menu_pages .navbar_list .nav_item .nav_link:hover {
   color: #fac603;
 }
 
@@ -234,6 +375,7 @@ button:hover {
   width: 100%;
   height: 100vh;
   background-image: url(../Images/menu_background.jpg);
+  background-size:cover;
 }
 
 .top_menu_area nav {
@@ -465,6 +607,14 @@ button:hover {
 
 .ads_banner .container {
   padding: 20px 0;
+}
+
+.ads_banner .container .ads_link {
+  width: 100%;
+}
+
+.ads_banner .container .ads_link img {
+  width: 100%;
 }
 
 .main_news_section {
@@ -1068,24 +1218,5 @@ footer .container .mbm_logo_column span {
   color: white;
   margin-top: 45px;
   text-align: justify;
-}
-
-@media (max-width: 1023px) {
-  .top_search_area {
-    height: 100vh;
-    width: 100%;
-    background-color: #000;
-  }
-  .top_search_area nav {
-    height: 140px;
-    border-bottom: 1px solid #969696;
-  }
-  .top_search_area nav .container {
-    height: 100%;
-  }
-  .top_search_area .search_area .container form input {
-    font-size: 15px;
-    border-bottom: 1px solid white;
-  }
 }
 /*# sourceMappingURL=main.css.map */
