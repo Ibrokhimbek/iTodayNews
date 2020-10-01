@@ -1508,5 +1508,336 @@ footer .container .mbm_logo_column span {
   .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title a {
     font-size: 9px;
   }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title .info_icons {
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title .info_icons .desciptions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title .info_icons .desciptions img {
+    width: 10px;
+  }
+  .main_news_section .container .news_column .news_left_bottom .news_link .news_link-title .info_icons .desciptions span {
+    font-size: 7px;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    margin-left: 2px;
+  }
+  .main_news_section .container .recommended_column {
+    width: 100%;
+  }
+  .main_news_section .container .recommended_column .recommended_title {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main_news_section .container .recommended_column .news_link {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-img {
+    width: 30%;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-img img {
+    width: 100%;
+    height: auto;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-title {
+    width: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-title a {
+    font-size: 9px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: black;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-title .info_icons {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 5px;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-title .info_icons .desciptions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-title .info_icons .desciptions img {
+    width: 10px;
+  }
+  .main_news_section .container .recommended_column .news_link .news_link-title .info_icons .desciptions span {
+    font-size: 7px;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    margin-left: 5px;
+  }
+  .main_news_section .container .recommended_column .ads_banner {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .main_news_section .container .recommended_column .ads_banner a {
+    width: 100%;
+    text-align: center;
+  }
+  .main_news_section .container .recommended_column .ads_banner a img {
+    width: 100%;
+  }
+  .main_news_section .container .recommended_column .latest_news_title, .main_news_section .container .recommended_column .readers_news_title {
+    width: 100%;
+  }
+  .main_news_section .container .recommended_column .latest_news_title h3, .main_news_section .container .recommended_column .readers_news_title h3 {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .header {
+    margin: 10px 0;
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+  .video_gallery {
+    width: 100%;
+  }
+  .video_gallery .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .video_gallery .container .video_gallery-vid {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .video_gallery .container .video_gallery-vid .video_box {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .video_gallery .container .video_gallery-vid .video_box a img {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    width: 40px;
+    height: 40px;
+  }
+  .video_gallery .container .video_gallery-vid .video_box a span {
+    color: white;
+    font-size: 19px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    padding: 0 5px;
+    text-align: justify;
+    background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(128, 128, 128, 0.016)));
+    background: linear-gradient(to top, black, rgba(128, 128, 128, 0.016));
+  }
+  .video_loader_btn .container button {
+    margin: 15px 0;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+  footer .container .iTodayLogo_column {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .container .iTodayLogo_column .logo,
+  footer .container .iTodayLogo_column .logo img {
+    width: 100%;
+  }
+  footer .container .iTodayLogo_column h2 {
+    width: 100%;
+    text-align: justify;
+    font-size: 10px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+  footer .container .iTodayLogo_column .follow_part {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 30px;
+  }
+  footer .container .iTodayLogo_column .follow_part h3 {
+    font-size: 8px;
+    margin-right: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+  footer .container .iTodayLogo_column .follow_part a img {
+    width: 70%;
+  }
+  footer .container ul {
+    display: none;
+  }
+  footer .container .mbm_logo_column {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  footer .container .mbm_logo_column .logo img {
+    width: 100%;
+  }
+  footer .container .mbm_logo_column h3 {
+    font-size: 10px;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+  }
+  footer .container .mbm_logo_column span {
+    font-size: 9px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 25px;
+    text-align: justify;
+  }
 }
 /*# sourceMappingURL=main.css.map */
