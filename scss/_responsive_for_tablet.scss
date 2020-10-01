@@ -1,3 +1,641 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 700px;
+        padding: 0 5px;
+        margin: 0 auto;
+    }
     
+    .top_search_area {
+        nav {
+            height: 70px;
+
+            .container {
+                .navbar {
+                    .iTodayLogo {
+                        min-width: 130px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .menu {
+                        width: 30%;
+
+
+                        .menu_user_actions {
+                            width: 100%;
+
+                            button {
+
+                                img {
+                                    height: 20px;
+                                }
+                            }
+
+                            .user_action_language {
+                                position: relative;
+                                padding: 2px;
+
+                                .languages {
+                                    padding-right: 20px;
+
+                                    a {
+                                        color: #fac603;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .menu_pages {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .search_area {
+            .container {
+                position: relative;
+
+                form {
+                    input {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    .main_navbar {
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+
+        .container {
+            height: 100%;
+
+            .navbar {
+                .iTodayLogo {
+                    min-width: 130px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .menu {
+                    width: 30%;
+
+
+                    .menu_user_actions {
+                        width: 100%;
+
+                        button {
+
+                            img {
+                                height: 14px;
+                            }
+                        }
+
+                        .user_action_language {
+                            position: relative;
+                            padding: 2px;
+
+                            .languages {
+                                padding-right: 13px;
+
+                                a {
+                                    color: #fac603;
+                                    font-size: 10px;
+                                }
+
+                                a:hover {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                    .menu_pages {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .top_menu_area {
+        nav {
+            width: 100%;
+            height: 70px;
+
+            .container {
+                height: 100%;
+                position: relative;
+
+                .top_menu_box {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .iToday_logo {
+                        width: 130px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .mbm_logo {
+                        display: none;
+                    }
+
+                    .menu_area_quoto {
+                        display: none;
+                    }
+
+                    .menu_area_user_actions {
+                        width: 30%;
+
+                        button {
+                            img {
+                                height: 14px;
+                            }
+                        }
+
+                        .user_actions {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .user_action_language {
+                                position: relative;
+                                padding: 2px;
+
+                                .languages {
+                                    padding-right: 10px;
+                                    border: 1px solid #fac603;
+                                    border-radius: 15px;
+                                    height: 100%;
+                                    position: absolute;
+                                    top: -1px;
+                                    right: 0;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+
+                                    a {
+                                        font-size: 10px;
+                                        color: #fac603;
+                                    }
+
+                                    a:hover {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+
+                        .menu_area_user_social {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .menu_area_navbar {
+            .container {
+                justify-content: space-around;
+
+                h3 {
+                    display: none;
+                }
+
+                .menu_area_navbar_nav {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: flex-end;
+
+                    .menu_area_nav_item:first-child {
+                        margin-top: 40px;
+                    }
+
+                    .menu_area_nav_item {
+                        margin-top: 20px;
+
+                        .menu_area_nav_link {
+                            font-size: 12px;
+                            color: white;
+                            text-decoration: none;
+                        }
+
+                        .menu_area_nav_link:hover {
+                            color: #fac603;
+                        }
+                    }
+                }
+
+                .exit_btn {
+                    position: absolute;
+                    top: 13;
+                    right: 10px;
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+        }
+
+    }
+
+    .ads_banner {
+    
+        .container {
+            padding: 5px 0;
+    
+            .ads_link {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+    
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .main_news_section {
+        .container {
+            flex-direction: column;
+
+            .news_column {
+                width: 100%;
+                
+                .news_title {
+                    margin: 0;
+                    
+                    h1 {
+                        font-size: 18px;
+                    }
+                }
+
+                .two_main_news {
+                    flex-direction: column;
+
+                    .main_new {
+                        width: 100%;
+                        border-bottom: 1px solid black;
+
+                        a{
+                            .main_new_img {
+                                width: 100%;
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    .main_new:nth-child(2) {
+                        width: 100%;
+                        border-bottom: none;
+
+                        a{
+                            .main_new_img {
+                                width: 27%;
+    
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .news_left_bottom {
+                    .news_link {
+                        padding-top: 10px;
+
+                        .news_link-img {
+                            width: 30%;
+                            
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .news_link-title {
+                            width: 65%;
+
+                            a{
+                                font-size: 9px;
+                            }
+
+                            .info_icons {
+                                width: 70%;
+                                margin-top: 5px;
+                                margin-bottom: 0px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+    
+                                .desciptions {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+
+                                    img {
+                                        width: 10px;
+                                    }
+    
+                                    span {
+                                        font-size: 7px;
+                                        font-family: "Rubik", sans-serif;
+                                        font-weight: normal;
+                                        margin-left: 2px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .recommended_column {
+                width: 100%;
+    
+                .recommended_title {
+                    font-size: 12px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 600;
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+    
+                .news_link {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    border-bottom: 1px solid black;
+                    margin-top: 10px;
+    
+                    .news_link-img {
+                        width: 30%;
+    
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+    
+                    .news_link-title {
+                        width: 65%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+    
+                        a {
+                            font-size: 9px;
+                            font-family: "Rubik", sans-serif;
+                            font-weight: 500;
+                            color: black;
+                        }
+    
+                        .info_icons {
+                            width: 70%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            margin-top: 5px;
+    
+                            .desciptions {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                img {
+                                    width: 10px;
+                                }
+    
+                                span {
+                                    font-size: 7px;
+                                    font-family: "Rubik", sans-serif;
+                                    font-weight: normal;
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .ads_banner {
+                    width: 100%;
+                    margin-top: 10px;
+    
+                    a {
+                        width: 100%;
+                        text-align: center;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+    
+                .latest_news_title, .readers_news_title {
+                    width: 100%;
+    
+                    h3 {
+                        font-size: 12px;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 600;
+                        text-align: center;
+                        margin: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .header {
+        margin: 10px 0;
+        font-size: 32px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .video_gallery {
+        width: 100%;
+    
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+    
+            .video_gallery-vid{
+                width: 100%;
+                margin-bottom: 10px;
+                
+                .video_box {
+                    position: relative;
+                    width: 100%;
+                    height: 220px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+    
+                    a {
+    
+                        img {
+                            position: absolute;
+                            top: 42%;
+                            left: 42%;
+                            width: 40px;
+                            height: 40px;
+                        }
+    
+                        span {
+                            color: white;
+                            font-size: 19px;
+                            font-family: "Rubik", sans-serif;
+                            font-weight: 500;
+                            position: absolute;
+                            bottom: 0;
+                            padding: 0 5px;
+                            text-align: justify;
+                            background: linear-gradient(to top, black, rgba(128, 128, 128, 0.016))
+                        }
+    
+    
+                    }
+                }
+            }
+        }
+    }
+
+    .video_loader_btn {
+        .container {
+            button {
+                margin: 15px 0;
+            }
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: black;
+    
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 10px 10px;
+    
+            .iTodayLogo_column {
+                width: 48%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+    
+                .logo,
+                .logo img {
+                    width: 100%;
+                }
+    
+                h2 {
+                    width: 100%;
+                    text-align: justify;
+                    font-size: 10px;
+                    margin-top: 20px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    color: white;
+                }
+    
+                .follow_part {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 30px;
+    
+                    h3 {
+                        font-size: 8px;
+                        margin-right: 5px;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 500;
+                        color: white;
+                    }
+
+                    a {
+                        img {
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+    
+            ul {
+                display: none;
+            }
+    
+            .mbm_logo_column {
+                width: 48%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-end;
+
+                .logo {
+                    img {
+                        width: 100%;
+                    }
+                }
+    
+                h3 {
+                    font-size: 10px;
+                    text-align: justify;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    color: white;
+                    margin-top: 10px;
+                }
+    
+                span {
+                    font-size: 9px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    color: white;
+                    margin-top: 25px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
 }
