@@ -10,7 +10,7 @@
 
   <body>
     <!-- This will appear when the search button is clicked -->
-    <div class="top_search_area">
+    <div class="top_search_area navbar_hide">
       <nav>
         <div class="container">
           <div class="navbar">
@@ -30,7 +30,7 @@
                 <button type="button" class="user_action_search">
                   <img src="Images/icons/searchIcon.png" alt="" />
                 </button>
-                <button type="button" class="user_action_menu">
+                <button type="button" class="user_action_menu" style="visibility: hidden;">
                   <img src="Images/icons/menuIcon.png" alt="" />
                 </button>
               </div>
@@ -66,7 +66,7 @@
             <input type="text" name="" id="" placeholder=" Start Searching" />
             <button type="submit" style="display: none"></button>
           </form>
-          <button type="button">
+          <button type="button" id="searchExit">
             <img src="Images/icons/ExitIcon.png" alt="" />
           </button>
         </div>
@@ -74,7 +74,7 @@
     </div>
 
     <!-- This will appear when the bar is clicked -->
-    <div class="top_menu_area">
+    <div class="top_menu_area navbar_hide">
       <nav>
         <div class="container">
           <div class="top_menu_box">
@@ -95,7 +95,7 @@
                     <a href="#">UZ</a>
                   </div>
                 </button>
-                <button type="button">
+                <button type="button" style="visibility: hidden;">
                   <img src="Images/icons/searchIcon.png" alt="" />
                 </button>
                 <button type="button">
@@ -122,7 +122,7 @@
         </div>
       </nav>
 
-      <div class="menu_area_navbar fixed_position">
+      <div class="menu_area_navbar">
         <div class="container">
           <h3>By MBM IT Company</h3>
           <ul class="menu_area_navbar_nav">
@@ -189,15 +189,15 @@
               <button type="button" class="user_action_language">
                 <img src="Images/icons/languageIcon.png" alt="" />
                 <div class="languages">
-                  <a href="#">UZ</a>
                   <a href="#">EN</a>
                   <a href="#">RU</a>
+                  <a href="#">UZ</a>
                 </div>
               </button>
-              <button type="button" class="user_action_search">
+              <button type="button" id="user_action_search">
                 <img src="Images/icons/searchIcon.png" alt="" />
               </button>
-              <button type="button" class="user_action_menu">
+              <button type="button" id="user_action_menu">
                 <img src="Images/icons/menuIcon.png" alt="" />
               </button>
             </div>

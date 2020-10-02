@@ -2466,4 +2466,66 @@ footer .container .mbm_logo_column span {
     text-align: justify;
   }
 }
+
+.navbar_hide {
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
+  -webkit-animation: close 0.5s forwards normal ease-in-out;
+          animation: close 0.5s forwards normal ease-in-out;
+  display: none;
+}
+
+.navbar_open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation: open 0.5s forwards normal ease-in-out;
+          animation: open 0.5s forwards normal ease-in-out;
+  z-index: 9999;
+}
+
+@-webkit-keyframes open {
+  from {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes open {
+  from {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes close {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+}
+
+@keyframes close {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+}
 /*# sourceMappingURL=main.css.map */

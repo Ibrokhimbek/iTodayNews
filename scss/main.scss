@@ -7,3 +7,37 @@
 @import "footer";
 @import "responsive_for_mobile";
 @import "responsive_for_tablet";
+
+.navbar_hide {
+    position: absolute;
+    width: 100%;
+    transform: translateY(-100vh);
+    animation: close 0.5s forwards normal ease-in-out;
+    display: none;
+}
+
+.navbar_open {
+    transform: translateY(0);
+    animation: open 0.5s forwards normal ease-in-out;
+    z-index: 9999;
+}
+
+@keyframes open {
+    from {
+        transform: translateY(-100vh);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes close {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100vh);
+    }
+}
