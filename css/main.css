@@ -2467,6 +2467,13 @@ footer .container .mbm_logo_column span {
   }
 }
 
+.main_navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
 .navbar_hide {
   position: absolute;
   width: 100%;

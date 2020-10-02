@@ -8,6 +8,12 @@
 @import "responsive_for_mobile";
 @import "responsive_for_tablet";
 
+.main_navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
 .navbar_hide {
     position: absolute;
     width: 100%;
