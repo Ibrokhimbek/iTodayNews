@@ -17,6 +17,7 @@
 }
 
 .navbar_open {
+    position: fixed;
     transform: translateY(0);
     animation: open 0.5s forwards normal ease-in-out;
     z-index: 9999;

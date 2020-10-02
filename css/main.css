@@ -2478,6 +2478,7 @@ footer .container .mbm_logo_column span {
 }
 
 .navbar_open {
+  position: fixed;
   -webkit-transform: translateY(0);
           transform: translateY(0);
   -webkit-animation: open 0.5s forwards normal ease-in-out;
